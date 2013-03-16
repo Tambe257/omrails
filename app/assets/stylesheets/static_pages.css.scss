@@ -1,7 +1,6 @@
-
-$btnPrimaryBackground: green;
 $navbarBackgroundHighlight: gray;
 $navbarBackground: gray;
+$btnPrimaryBackground: green;
 
 @import 'bootstrap';
 
@@ -16,9 +15,6 @@ body {
 	@include box-shadow(none !important);
 	border: 0;
 }
-
-
-
 
 .footer {
 
