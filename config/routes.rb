@@ -2,7 +2,7 @@ Omrails::Application.routes.draw do
   
   devise_for :users
 
-  # devise_for :installs
+  devise_for :installs
 
   root :to => 'static_pages#home'
 
