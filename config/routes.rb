@@ -7,7 +7,7 @@ Omrails::Application.routes.draw do
 
   devise_for :installs
 
-  root :to => 'static_pages#home'
+  root :to => 'pins#index'
 
   get "about" => "static_pages#about"
 
